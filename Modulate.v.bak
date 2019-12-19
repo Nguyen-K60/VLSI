@@ -21,7 +21,7 @@ module Modulate(clk, clk1, Ichannel, Qchannel, QPSK_out);
       end
     else
       begin
-	QPSK_out = lo_cos_out - lo_sin_out + 400;
+	QPSK_out = +lo_cos_out - lo_sin_out + 400;
       end 
   end
 endmodule

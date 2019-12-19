@@ -12,6 +12,41 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	I01
 
+} {} {}} /home/nguyen/Documents/VLSI/Q11.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Q11.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Q11
+
+Top level modules:
+	Q11
+
+} {} {}} /home/nguyen/Documents/VLSI/Demodulate.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Demodulate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Demodulate
+
+Top level modules:
+	Demodulate
+
+} {} {}} /home/nguyen/Documents/VLSI/lo_cos.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_cos.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lo_cos
+
+Top level modules:
+	lo_cos
+
+} {} {}} /home/nguyen/Documents/VLSI/GenerateIAndQ.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GenerateIAndQ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GenerateIAndQ
+
+Top level modules:
+	GenerateIAndQ
+
+} {} {}} /home/nguyen/Documents/VLSI/Q00.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Q00.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Q00
+
+Top level modules:
+	Q00
+
 } {} {}} /home/nguyen/Documents/VLSI/Q01.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Q01.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Q01
@@ -25,13 +60,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	I10
-
-} {} {}} /home/nguyen/Documents/VLSI/Q11.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Q11.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Q11
-
-Top level modules:
-	Q11
 
 } {} {}} /home/nguyen/Documents/VLSI/I11.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/I11.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -47,26 +75,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Modulate
 
-} {} {}} /home/nguyen/Documents/VLSI/top.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/top.v
+} {} {}} /home/nguyen/Documents/VLSI/lo_sin.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_sin.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module top
+-- Compiling module lo_sin
 
 Top level modules:
-	top
-
-} {} {}} /home/nguyen/Documents/VLSI/GenerateIAndQ.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GenerateIAndQ.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module GenerateIAndQ
-
-Top level modules:
-	GenerateIAndQ
-
-} {} {}} /home/nguyen/Documents/VLSI/Q00.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Q00.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Q00
-
-Top level modules:
-	Q00
+	lo_sin
 
 } {} {}} /home/nguyen/Documents/VLSI/I00.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/I00.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

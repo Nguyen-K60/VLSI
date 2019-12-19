@@ -50,8 +50,30 @@ R5
 !i113 1
 R6
 R7
+vDemodulate
+Z8 !s110 1576728953
+!i10b 1
+!s100 @d``o1R?<E0?WE]i]Oc0^1
+I221gOb1a69nhIh`Yi6MUG1
+R1
+R2
+w1576728581
+8/home/nguyen/Documents/VLSI/Demodulate.v
+F/home/nguyen/Documents/VLSI/Demodulate.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1576728953.000000
+!s107 /home/nguyen/Documents/VLSI/Demodulate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Demodulate.v|
+!i113 1
+R6
+R7
+n@demodulate
 vGenerateIAndQ
-Z8 !s110 1576725164
+R8
 !i10b 1
 !s100 d3:HQ7<QNA3S1dH6_XWo02
 I<;70MYQTS?D:aQo0]jP<`1
@@ -65,7 +87,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1576725164.000000
+R9
 !s107 /home/nguyen/Documents/VLSI/GenerateIAndQ.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GenerateIAndQ.v|
 !i113 1
@@ -95,7 +117,7 @@ R6
 R7
 n@generate@input
 vI00
-!s110 1576725163
+R8
 !i10b 1
 !s100 F?Ijmn<KWM:A:R>VUk>fN2
 I?zQb[0_O[YWkj5Yh[a1>V2
@@ -109,7 +131,7 @@ R4
 r1
 !s85 0
 31
-Z12 !s108 1576725163.000000
+R9
 !s107 /home/nguyen/Documents/VLSI/I00.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I00.v|
 !i113 1
@@ -131,7 +153,7 @@ R4
 r1
 !s85 0
 31
-R12
+R9
 !s107 /home/nguyen/Documents/VLSI/I01.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I01.v|
 !i113 1
@@ -225,6 +247,48 @@ R5
 !i113 1
 R6
 R7
+vlo_cos
+R8
+!i10b 1
+!s100 eB=05OQF4VZKYbTgk@Ezj2
+IjZ9<RS@8jiKZF^[MeFDmk0
+R1
+R2
+w1576728333
+8/home/nguyen/Documents/VLSI/lo_cos.v
+F/home/nguyen/Documents/VLSI/lo_cos.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/nguyen/Documents/VLSI/lo_cos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/lo_cos.v|
+!i113 1
+R6
+R7
+vlo_sin
+R8
+!i10b 1
+!s100 m7zT1[];5>Jk43XmWKLQT3
+IAeT9L:SheOnjc:ngT?Xlk3
+R1
+R2
+w1576728093
+8/home/nguyen/Documents/VLSI/lo_sin.v
+F/home/nguyen/Documents/VLSI/lo_sin.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/nguyen/Documents/VLSI/lo_sin.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/lo_sin.v|
+!i113 1
+R6
+R7
 vmixer
 R0
 !i10b 1
@@ -249,11 +313,11 @@ R7
 vModulate
 R8
 !i10b 1
-!s100 <B1o]O2mna`Uk1Q:UDnhF3
-IDcHIJZnG<jj0ZM6^d6cXE0
+!s100 ?CU3d[Ui=G7ZkN3>:gFjU2
+IgS1mk13hBzfVhbo^@an^j2
 R1
 R2
-w1576724597
+w1576728882
 8/home/nguyen/Documents/VLSI/Modulate.v
 F/home/nguyen/Documents/VLSI/Modulate.v
 L0 1
@@ -403,11 +467,11 @@ n@q@p@s@k
 vtop
 R8
 !i10b 1
-!s100 ZE0>E70g8mmKNK?PW=L@W2
-InE<JESQ`JGeni[nQ7l8m^0
+!s100 ZFIG3gJ8`F49UiR^2^VjW2
+I=kSO>1fe:PicLWP2ddICN2
 R1
 R2
-w1576725125
+w1576728945
 8/home/nguyen/Documents/VLSI/top.v
 F/home/nguyen/Documents/VLSI/top.v
 L0 1
