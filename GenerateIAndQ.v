@@ -1,8 +1,8 @@
-module GenerateInput(clk1, Ichannel, Qchannel);
+module GenerateIAndQ(clk1, Ichannel, Qchannel);
   input clk1;
   output reg Ichannel;  
   output reg Qchannel; 
-  reg [1:0] counter;
+  reg counter;
   initial
   begin
     counter = 0;

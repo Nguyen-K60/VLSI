@@ -1,50 +1,8 @@
 # Loading project vlsi
-# Compile of Q11.v was successful.
-# Compile of top.v was successful.
-# Compile of adder.v was successful.
-# Compile of baseband.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of I00.v was successful.
-# Compile of I01.v was successful.
-# Compile of I10.v was successful.
-# Compile of I11.v was successful.
-# Compile of Icarrier.v was successful.
-# Compile of lo.v was successful.
-# Compile of mixer.v was successful.
-# Compile of Q00.v was successful.
-# Compile of Q01.v was successful.
-# Compile of Q10.v was successful.
-# Compile of Q11.v was successful.
-# Compile of Qcarrier.v was successful.
-# Compile of QPSK.v failed with 1 errors.
-# Compile of top.v was successful.
-# 17 compiles, 1 failed with 1 error.
-# Compile of adder.v was successful.
-# Compile of baseband.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of I00.v was successful.
-# Compile of I01.v was successful.
-# Compile of I10.v was successful.
-# Compile of I11.v was successful.
-# Compile of Icarrier.v was successful.
-# Compile of lo.v was successful.
-# Compile of mixer.v was successful.
-# Compile of Q00.v was successful.
-# Compile of Q01.v was successful.
-# Compile of Q10.v was successful.
-# Compile of Q11.v was successful.
-# Compile of Qcarrier.v was successful.
-# Compile of QPSK.v failed with 1 errors.
-# Compile of top.v was successful.
-# 17 compiles, 1 failed with 1 error.
-# Compile of QPSK.v failed with 5 errors.
-# Compile of QPSK.v was successful.
 vsim work.top
 # vsim work.top 
-# Start time: 08:23:39 on Dec 19,2019
+# Start time: 10:18:12 on Dec 19,2019
 # Loading work.top
-# Loading work.GenerateInput
-# Loading work.QPSK
 # Loading work.I00
 # Loading work.Q00
 # Loading work.I01
@@ -53,462 +11,9 @@ vsim work.top
 # Loading work.Q11
 # Loading work.I10
 # Loading work.Q10
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(6): [PCDPC] - Port size (1) does not match connection size (2) for port 'Ichannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(6): [PCDPC] - Port size (1) does not match connection size (2) for port 'Qchannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(6): Illegal output or inout port connection for port 'I00_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/i00 File: /home/nguyen/Documents/VLSI/I00.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(7): Illegal output or inout port connection for port 'Q00_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/q00 File: /home/nguyen/Documents/VLSI/Q00.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(8): Illegal output or inout port connection for port 'I01_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/i01 File: /home/nguyen/Documents/VLSI/I01.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(9): Illegal output or inout port connection for port 'Q01_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/q01 File: /home/nguyen/Documents/VLSI/Q01.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(10): Illegal output or inout port connection for port 'I11_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/i11 File: /home/nguyen/Documents/VLSI/I11.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(11): Illegal output or inout port connection for port 'Q11_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/q11 File: /home/nguyen/Documents/VLSI/Q11.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(12): Illegal output or inout port connection for port 'I10_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/i10 File: /home/nguyen/Documents/VLSI/I10.v
-# ** Error (suppressible): (vsim-3053) /home/nguyen/Documents/VLSI/QPSK.v(13): Illegal output or inout port connection for port 'Q10_out'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/q10 File: /home/nguyen/Documents/VLSI/Q10.v
-# Error loading design
-# End time: 08:23:39 on Dec 19,2019, Elapsed time: 0:00:00
-# Errors: 8, Warnings: 2
-# Compile of QPSK.v was successful.
-vsim work.top
-# vsim work.top 
-# Start time: 08:26:19 on Dec 19,2019
-# Loading work.top
-# Loading work.GenerateInput
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(6): [PCDPC] - Port size (1) does not match connection size (2) for port 'Ichannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(6): [PCDPC] - Port size (1) does not match connection size (2) for port 'Qchannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
 add wave -position insertpoint sim:/top/*
-force -freeze sim:/top/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/top/clk1 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-run -all
-# Break key hit
-restart
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(6): [PCDPC] - Port size (1) does not match connection size (2) for port 'Ichannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(6): [PCDPC] - Port size (1) does not match connection size (2) for port 'Qchannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run -all
-quit -sim
-# End time: 08:32:25 on Dec 19,2019, Elapsed time: 0:06:06
-# Errors: 0, Warnings: 4
-# Compile of QPSK.v was successful.
-# Compile of top.v failed with 1 errors.
-# Compile of top.v failed with 1 errors.
-# Compile of adder.v was successful.
-# Compile of baseband.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of I00.v was successful.
-# Compile of I01.v was successful.
-# Compile of I10.v was successful.
-# Compile of I11.v was successful.
-# Compile of Icarrier.v was successful.
-# Compile of lo.v was successful.
-# Compile of mixer.v was successful.
-# Compile of Q00.v was successful.
-# Compile of Q01.v was successful.
-# Compile of Q10.v was successful.
-# Compile of Q11.v was successful.
-# Compile of Qcarrier.v was successful.
-# Compile of QPSK.v was successful.
-# Compile of top.v was successful.
-# 17 compiles, 0 failed with no errors.
-vsim work.top
-# vsim work.top 
-# Start time: 08:37:12 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -position insertpoint sim:/top/*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 08:41:19 on Dec 19,2019, Elapsed time: 0:04:07
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 08:42:41 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -r /*
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 08:47:03 on Dec 19,2019, Elapsed time: 0:04:22
-# Errors: 0, Warnings: 0
-# Compile of adder.v was successful.
-# Compile of baseband.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of I00.v was successful.
-# Compile of I01.v was successful.
-# Compile of I10.v was successful.
-# Compile of I11.v was successful.
-# Compile of Icarrier.v was successful.
-# Compile of lo.v was successful.
-# Compile of mixer.v was successful.
-# Compile of Q00.v was successful.
-# Compile of Q01.v was successful.
-# Compile of Q10.v was successful.
-# Compile of Q11.v was successful.
-# Compile of Qcarrier.v was successful.
-# Compile of QPSK.v was successful.
-# Compile of top.v was successful.
-# 17 compiles, 0 failed with no errors.
-vsim work.top
-# vsim work.top 
-# Start time: 08:48:23 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(5): [PCDPC] - Port size (2) does not match connection size (1) for port 'Ichannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/top.v(5): [PCDPC] - Port size (2) does not match connection size (1) for port 'Qchannel'. The port definition is at: /home/nguyen/Documents/VLSI/QPSK.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk File: /home/nguyen/Documents/VLSI/QPSK.v
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/QPSK.v(14): [PCDPC] - Port size (1) does not match connection size (2) for port 'Ichannel'. The port definition is at: /home/nguyen/Documents/VLSI/GenerateInput.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/gen File: /home/nguyen/Documents/VLSI/GenerateInput.v
-# ** Warning: (vsim-3015) /home/nguyen/Documents/VLSI/QPSK.v(14): [PCDPC] - Port size (1) does not match connection size (2) for port 'Qchannel'. The port definition is at: /home/nguyen/Documents/VLSI/GenerateInput.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /top/qpsk/gen File: /home/nguyen/Documents/VLSI/GenerateInput.v
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 08:50:56 on Dec 19,2019, Elapsed time: 0:02:33
-# Errors: 0, Warnings: 4
-# Compile of QPSK.v was successful.
-vsim work.top
-# vsim work.top 
-# Start time: 08:51:41 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-quit -sim
-# End time: 08:53:00 on Dec 19,2019, Elapsed time: 0:01:19
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 08:53:47 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-# WARNING: No extended dataflow license exists
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Compile of QPSK.v was successful.
-quit -sim
-# End time: 09:05:31 on Dec 19,2019, Elapsed time: 0:11:44
-# Errors: 0, Warnings: 1
-vsim work.top
-# vsim work.top 
-# Start time: 09:05:43 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 09:11:04 on Dec 19,2019, Elapsed time: 0:05:21
-# Errors: 0, Warnings: 0
-# Compile of GenerateInput.v was successful.
-# Compile of I00.v was successful.
-# Compile of I01.v was successful.
-# Compile of I10.v was successful.
-# Compile of I11.v was successful.
-# Compile of Q00.v was successful.
-# Compile of Q01.v was successful.
-# Compile of Q10.v was successful.
-# Compile of Q11.v was successful.
-# Compile of QPSK.v was successful.
-# Compile of top.v was successful.
-# 11 compiles, 0 failed with no errors.
-vsim work.top
-# vsim work.top 
-# Start time: 09:11:21 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {0 ps} -r 1
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 09:14:04 on Dec 19,2019, Elapsed time: 0:02:43
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 09:17:55 on Dec 19,2019
-# Loading work.top
-# Loading work.QPSK
-# Loading work.I00
-# Loading work.Q00
-# Loading work.I01
-# Loading work.Q01
-# Loading work.I11
-# Loading work.Q11
-# Loading work.I10
-# Loading work.Q10
-# Loading work.GenerateInput
-add wave -position insertpoint sim:/top/*
-force -freeze sim:/top/clk 1 0, 0 {0 ps} -r 1
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Break key hit
-restart
 force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
 force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
 run
@@ -541,8 +46,205 @@ run
 run
 run
 run
-run -continue
-run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 quit -sim
-# End time: 09:28:37 on Dec 19,2019, Elapsed time: 0:10:42
+# End time: 10:20:46 on Dec 19,2019, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 10:20:59 on Dec 19,2019
+# Loading work.top
+# Loading work.I00
+# Loading work.Q00
+# Loading work.I01
+# Loading work.Q01
+# Loading work.I11
+# Loading work.Q11
+# Loading work.I10
+# Loading work.Q10
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+add wave -position insertpoint sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+run -all
+# End time: 10:22:26 on Dec 19,2019, Elapsed time: 0:01:27
 # Errors: 0, Warnings: 0

@@ -50,8 +50,30 @@ R5
 !i113 1
 R6
 R7
+vGenerateIAndQ
+Z8 !s110 1576725164
+!i10b 1
+!s100 d3:HQ7<QNA3S1dH6_XWo02
+I<;70MYQTS?D:aQo0]jP<`1
+R1
+R2
+w1576724242
+8/home/nguyen/Documents/VLSI/GenerateIAndQ.v
+F/home/nguyen/Documents/VLSI/GenerateIAndQ.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1576725164.000000
+!s107 /home/nguyen/Documents/VLSI/GenerateIAndQ.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GenerateIAndQ.v|
+!i113 1
+R6
+R7
+n@generate@i@and@q
 vGenerateInput
-Z8 !s110 1576721472
+Z10 !s110 1576721472
 !i10b 1
 !s100 mhFKjz1d6a98hKFeMF8=:0
 IdS@^IWn=f=^EW:jB;J>[[3
@@ -65,7 +87,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1576721472.000000
+Z11 !s108 1576721472.000000
 !s107 /home/nguyen/Documents/VLSI/GenerateInput.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GenerateInput.v|
 !i113 1
@@ -73,7 +95,7 @@ R6
 R7
 n@generate@input
 vI00
-R8
+!s110 1576725163
 !i10b 1
 !s100 F?Ijmn<KWM:A:R>VUk>fN2
 I?zQb[0_O[YWkj5Yh[a1>V2
@@ -87,7 +109,7 @@ R4
 r1
 !s85 0
 31
-R9
+Z12 !s108 1576725163.000000
 !s107 /home/nguyen/Documents/VLSI/I00.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I00.v|
 !i113 1
@@ -109,7 +131,7 @@ R4
 r1
 !s85 0
 31
-R9
+R12
 !s107 /home/nguyen/Documents/VLSI/I01.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I01.v|
 !i113 1
@@ -224,6 +246,28 @@ R5
 !i113 1
 R6
 R7
+vModulate
+R8
+!i10b 1
+!s100 <B1o]O2mna`Uk1Q:UDnhF3
+IDcHIJZnG<jj0ZM6^d6cXE0
+R1
+R2
+w1576724597
+8/home/nguyen/Documents/VLSI/Modulate.v
+F/home/nguyen/Documents/VLSI/Modulate.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/nguyen/Documents/VLSI/Modulate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Modulate.v|
+!i113 1
+R6
+R7
+n@modulate
 vQ00
 R8
 !i10b 1
@@ -335,7 +379,7 @@ R6
 R7
 n@qcarrier
 vQPSK
-R8
+R10
 !i10b 1
 !s100 [CTkjAlL@m3b[HV5XYAS^0
 I9THoPJnRoXcikS^2SNWSL3
@@ -349,7 +393,7 @@ R4
 r1
 !s85 0
 31
-R9
+R11
 !s107 /home/nguyen/Documents/VLSI/QPSK.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/QPSK.v|
 !i113 1
@@ -359,11 +403,11 @@ n@q@p@s@k
 vtop
 R8
 !i10b 1
-!s100 faN68m;`l6c<C>09Aj6Sa3
-IfVN<<2R4;k]@BiY?QZIiZ2
+!s100 ZE0>E70g8mmKNK?PW=L@W2
+InE<JESQ`JGeni[nQ7l8m^0
 R1
 R2
-w1576720031
+w1576725125
 8/home/nguyen/Documents/VLSI/top.v
 F/home/nguyen/Documents/VLSI/top.v
 L0 1
