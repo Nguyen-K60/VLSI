@@ -6,7 +6,7 @@ module QPSK(clk, clk1, Ichannel, Qchannel, QPSK_out);
   I00 i00(.clk(clk), .I00_out(I_00));
   Q00 q00(.clk(clk), .Q00_out(Q_00));
   I01 i01(.clk(clk), .I01_out(I_01));
-  Q01 q01(.clk(clk), .Q01_out(Q_01));
+  Q01 q01(.clk(clk), .Q01_out(I_01));
   I11 i11(.clk(clk), .I11_out(I_11));
   Q11 q11(.clk(clk), .Q11_out(Q_11));
   I10 i10(.clk(clk), .I10_out(I_10));

@@ -1,6 +1,6 @@
 module Q10(clk, Q10_out);//sin * cos(7pi/4)
 input clk;
-output reg [7:0] Q10_out;
+output [7:0] Q10_out;
 reg [7:0] temp [15:0];
   reg [3:0] counter;
   initial 

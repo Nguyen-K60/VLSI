@@ -1,6 +1,6 @@
-module Q01(clk, Q01_out);//sin * cos(3pi/4)
+module Q11(clk, Q11_out);//sin * cos(5pi/4)
 input clk;
-output reg [7:0] Q01_out;
+output [7:0] Q11_out;
 reg [7:0] temp [15:0];
   reg [3:0] counter;
   initial 
@@ -25,7 +25,7 @@ reg [7:0] temp [15:0];
   end
   always @(posedge clk)
   begin
-    Q01_out = temp[counter];
+    Q11_out = temp[counter];
     counter = counter +1;
   end
 endmodule

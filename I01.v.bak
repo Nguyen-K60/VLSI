@@ -1,6 +1,6 @@
-module I00(clk, I00_out);//cos * sin(pi/4)
+module I01(clk, I01_out);//cos * sin(3pi/4)
 input clk;
-output reg [7:0] I00_out;
+output [7:0] I01_out;
 reg [7:0] temp [15:0];
   reg [3:0] counter;
   initial 
@@ -25,7 +25,7 @@ reg [7:0] temp [15:0];
   end
   always @(posedge clk)
   begin
-    I00_out = temp[counter];
+    I01_out = temp[counter];
     counter = counter +1;
   end
 endmodule

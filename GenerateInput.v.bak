@@ -2,7 +2,7 @@ module GenerateInput(clk1, Ichannel, Qchannel);
   input clk1;
   output reg Ichannel;  
   output reg Qchannel; 
-  reg counter;
+  reg [1:0] counter;
   initial
   begin
     counter = 0;
