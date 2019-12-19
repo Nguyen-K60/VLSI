@@ -1,30 +1,18 @@
 # Loading project vlsi
-# Compile of I00.v was successful.
-# Compile of I01.v was successful.
-# Compile of I10.v was successful.
-# Compile of I11.v was successful.
-# Compile of Q00.v was successful.
-# Compile of Q01.v was successful.
-# Compile of Q10.v was successful.
-# Compile of Q11.v was successful.
-# Compile of top.v was successful.
-# Compile of GenerateIAndQ.v was successful.
-# Compile of Modulate.v was successful.
-# Compile of Demodulate.v was successful.
-# Compile of lo_sin.v was successful.
-# Compile of lo_cos.v was successful.
-# 14 compiles, 0 failed with no errors.
 vsim work.top
 # vsim work.top 
-# Start time: 11:15:15 on Dec 19,2019
+# Start time: 14:23:51 on Dec 19,2019
 # Loading work.top
 # Loading work.GenerateIAndQ
 # Loading work.Modulate
 # Loading work.lo_sin
 # Loading work.lo_cos
-# Loading work.Demodulate
+add wave -position insertpoint sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+run -all
 quit -sim
-# End time: 11:15:41 on Dec 19,2019, Elapsed time: 0:00:26
+# End time: 14:26:11 on Dec 19,2019, Elapsed time: 0:02:20
 # Errors: 0, Warnings: 0
 # Compile of I00.v was successful.
 # Compile of I01.v was successful.
@@ -43,7 +31,7 @@ quit -sim
 # 14 compiles, 0 failed with no errors.
 vsim work.top
 # vsim work.top 
-# Start time: 11:16:06 on Dec 19,2019
+# Start time: 14:27:46 on Dec 19,2019
 # Loading work.top
 # Loading work.GenerateIAndQ
 # Loading work.Modulate
@@ -53,3 +41,223 @@ add wave -position insertpoint sim:/top/*
 force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
 force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
 run -all
+quit -sim
+# End time: 14:29:48 on Dec 19,2019, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 14:38:42 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.lo_sin
+# Loading work.lo_cos
+add wave -position insertpoint sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+# Break key hit
+run -all
+quit -sim
+# End time: 14:39:52 on Dec 19,2019, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 14:40:03 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.lo_sin
+# Loading work.lo_cos
+add wave -r sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+run -all
+quit -sim
+# End time: 14:57:05 on Dec 19,2019, Elapsed time: 0:17:02
+# Errors: 0, Warnings: 0
+# Compile of I00.v was successful.
+# Compile of I01.v was successful.
+# Compile of I10.v was successful.
+# Compile of I11.v was successful.
+# Compile of Q00.v was successful.
+# Compile of Q01.v was successful.
+# Compile of Q10.v was successful.
+# Compile of Q11.v was successful.
+# Compile of top.v was successful.
+# Compile of GenerateIAndQ.v was successful.
+# Compile of Modulate.v was successful.
+# Compile of Demodulate.v was successful.
+# Compile of lo_sin.v was successful.
+# Compile of lo_cos.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 14:57:38 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.lo_sin
+# Loading work.lo_cos
+add wave -position insertpoint sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+run -all
+add wave -r sim:/top/*
+# Break key hit
+restart
+run -all
+run -all
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+# Unable to retrieve min/max values for "sim:/top/QPSK_out"
+run -all
+# unknown option "-rowmargin"
+quit -sim
+# End time: 15:01:44 on Dec 19,2019, Elapsed time: 0:04:06
+# Errors: 2, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 15:01:51 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.lo_sin
+# Loading work.lo_cos
+add wave -r sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+run -all
+quit -sim
+# End time: 15:10:37 on Dec 19,2019, Elapsed time: 0:08:46
+# Errors: 0, Warnings: 0
+# Compile of I00.v was successful.
+# Compile of I01.v was successful.
+# Compile of I10.v was successful.
+# Compile of I11.v was successful.
+# Compile of Q00.v was successful.
+# Compile of Q01.v was successful.
+# Compile of Q10.v was successful.
+# Compile of Q11.v was successful.
+# Compile of top.v was successful.
+# Compile of GenerateIAndQ.v was successful.
+# Compile of Modulate.v was successful.
+# Compile of Demodulate.v was successful.
+# Compile of lo_sin.v was successful.
+# Compile of lo_cos.v was successful.
+# Compile of Symbol00.v was successful.
+# Compile of Symbol01.v was successful.
+# Compile of Symbol10.v was successful.
+# Compile of Symbol11.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 15:28:51 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.Symbol00
+# Loading work.Symbol01
+# Loading work.Symbol11
+# Loading work.Symbol10
+add wave -r sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint sim:/top/*
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+run -all
+restart
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+run -all
+restart
+force -freeze sim:/top/clk 1 0, 0 {0 ps} -r 1
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+run -all
+# unknown option "-rowmargin"
+# unknown option "-rowmargin"
+# unknown option "-rowmargin"
+# unknown option "-rowmargin"
+# unknown option "-rowmargin"
+quit -sim
+# End time: 15:36:36 on Dec 19,2019, Elapsed time: 0:07:45
+# Errors: 5, Warnings: 0
+vsim work.top
+# vsim work.top 
+# Start time: 15:36:45 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.Symbol00
+# Loading work.Symbol01
+# Loading work.Symbol11
+# Loading work.Symbol10
+add wave -position insertpoint sim:/top/*
+add wave -r sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
+run -all
+quit -sim
+# End time: 15:41:41 on Dec 19,2019, Elapsed time: 0:04:56
+# Errors: 0, Warnings: 0
+# Compile of I00.v was successful.
+# Compile of I01.v was successful.
+# Compile of I10.v was successful.
+# Compile of I11.v was successful.
+# Compile of Q00.v was successful.
+# Compile of Q01.v was successful.
+# Compile of Q10.v was successful.
+# Compile of Q11.v was successful.
+# Compile of top.v was successful.
+# Compile of GenerateIAndQ.v was successful.
+# Compile of Modulate.v was successful.
+# Compile of Demodulate.v was successful.
+# Compile of lo_sin.v was successful.
+# Compile of lo_cos.v was successful.
+# Compile of Symbol00.v was successful.
+# Compile of Symbol01.v was successful.
+# Compile of Symbol10.v was successful.
+# Compile of Symbol11.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 15:42:11 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.Symbol00
+# Loading work.Symbol01
+# Loading work.Symbol11
+# Loading work.Symbol10
+add wave -r sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+run -all
+quit -sim
+# End time: 15:45:20 on Dec 19,2019, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 0
+# Compile of top.v was successful.
+# Compile of GenerateIAndQ.v was successful.
+# Compile of Modulate.v was successful.
+# Compile of Demodulate.v was successful.
+# Compile of Symbol00.v was successful.
+# Compile of Symbol01.v was successful.
+# Compile of Symbol10.v was successful.
+# Compile of Symbol11.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 15:46:42 on Dec 19,2019
+# Loading work.top
+# Loading work.GenerateIAndQ
+# Loading work.Modulate
+# Loading work.Symbol00
+# Loading work.Symbol01
+# Loading work.Symbol11
+# Loading work.Symbol10
+add wave -position insertpoint sim:/top/*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+run -all
+quit -sim
+# End time: 15:48:11 on Dec 19,2019, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0
