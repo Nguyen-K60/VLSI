@@ -40,10 +40,9 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Symbol00
 
-} {} {}} /home/nguyen/Documents/VLSI/lo_cos.v {2 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_cos.v
+} {} {}} /home/nguyen/Documents/VLSI/lo_cos.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_cos.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module lo_cos
-** Warning: /home/nguyen/Documents/VLSI/lo_cos.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
 
 Top level modules:
 	lo_cos
@@ -69,10 +68,9 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Modulate
 
-} {} {}} /home/nguyen/Documents/VLSI/lo_sin.v {2 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_sin.v
+} {} {}} /home/nguyen/Documents/VLSI/lo_sin.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_sin.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module lo_sin
-** Warning: /home/nguyen/Documents/VLSI/lo_sin.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
 
 Top level modules:
 	lo_sin
@@ -83,6 +81,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	Symbol10
+
+} {} {}} /home/nguyen/Documents/VLSI/GetQPSKOutPut.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GetQPSKOutPut.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GetQPSKOutput
+
+Top level modules:
+	GetQPSKOutput
 
 } {} {}} /home/nguyen/Documents/VLSI/Symbol11.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Symbol11.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

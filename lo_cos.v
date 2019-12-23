@@ -2,7 +2,7 @@ module lo_cos(clk, lo_cos_out);
   input clk;
   output reg signed [8:0] lo_cos_out;
   reg signed [8:0] cos [15:0];
-  reg unsigned [3:0] counter;
+  reg [3:0] counter;
   initial 
   begin 
     cos[0] = 100;

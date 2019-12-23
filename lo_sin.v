@@ -2,7 +2,7 @@ module lo_sin(clk, lo_sin_out);
   input clk;
   output reg signed [8:0] lo_sin_out;
   reg signed [8:0] sin [15:0];
-  reg unsigned [3:0] counter;
+  reg [3:0] counter;
   initial 
   begin
     sin[0] = 0;
@@ -26,6 +26,6 @@ module lo_sin(clk, lo_sin_out);
   always @(posedge clk)
   begin
     lo_sin_out = sin[counter];
-    counter = counter +1;
+    counter = counter + 1;
   end
 endmodule

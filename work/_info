@@ -182,8 +182,30 @@ R11
 R6
 R7
 n@get@origin@i@and@q
+vGetQPSKOutput
+Z14 !s110 1577092628
+!i10b 1
+!s100 [SFQPboTNSc>g0?nH]Dg52
+IH6gKI7mKP>AO9O<Bj;i4;2
+R1
+R2
+w1577092616
+8/home/nguyen/Documents/VLSI/GetQPSKOutPut.v
+F/home/nguyen/Documents/VLSI/GetQPSKOutPut.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1577092628.000000
+!s107 /home/nguyen/Documents/VLSI/GetQPSKOutPut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GetQPSKOutPut.v|
+!i113 1
+R6
+R7
+n@get@q@p@s@k@output
 vI00
-Z14 !s110 1576744922
+Z16 !s110 1576744922
 !i10b 1
 !s100 F?Ijmn<KWM:A:R>VUk>fN2
 I?zQb[0_O[YWkj5Yh[a1>V2
@@ -197,7 +219,7 @@ R4
 r1
 !s85 0
 31
-Z15 !s108 1576744922.000000
+Z17 !s108 1576744922.000000
 !s107 /home/nguyen/Documents/VLSI/I00.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I00.v|
 !i113 1
@@ -205,7 +227,7 @@ R6
 R7
 n@i00
 vI01
-R14
+R16
 !i10b 1
 !s100 X8goF^;2WRT0S_P9BEJlK2
 I[6n]FJ9PPOD_hVOPb6VOa3
@@ -219,7 +241,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/I01.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I01.v|
 !i113 1
@@ -227,7 +249,7 @@ R6
 R7
 n@i01
 vI10
-R14
+R16
 !i10b 1
 !s100 KI9AzKFGVY;?`IXaHUW>:0
 IA3Vbj`d6X_zS^Lh9ciLI@0
@@ -241,7 +263,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/I10.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I10.v|
 !i113 1
@@ -249,7 +271,7 @@ R6
 R7
 n@i10
 vI11
-R14
+R16
 !i10b 1
 !s100 2;kgdo;9Qh[D`F_]2VViA0
 IMz;NYeFlL]OBa<:=7nBV:0
@@ -263,7 +285,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/I11.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/I11.v|
 !i113 1
@@ -314,13 +336,13 @@ R5
 R6
 R7
 vlo_cos
-!s110 1577003924
+Z18 !s110 1577090196
 !i10b 1
-!s100 gM?<GU][5F3mnO]h0lbQn2
-Ig1koUnCJCHMWH__^R8GS03
+!s100 6KUQIShSVf5A65FjcGCJ:1
+I=z1iE3MJLhN<0A9og>oKm3
 R1
 R2
-w1576982522
+w1577090151
 8/home/nguyen/Documents/VLSI/lo_cos.v
 F/home/nguyen/Documents/VLSI/lo_cos.v
 L0 1
@@ -328,20 +350,20 @@ R4
 r1
 !s85 0
 31
-!s108 1577003924.000000
+Z19 !s108 1577090196.000000
 !s107 /home/nguyen/Documents/VLSI/lo_cos.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/lo_cos.v|
 !i113 1
 R6
 R7
 vlo_sin
-R10
+R18
 !i10b 1
-!s100 FlbWM^>Kh951;U4]Y;I4Y3
-I@P7JWXS@:Q1YRnC:W:`jE3
+!s100 Ij>e7QWfiZBXEil^h1DV[3
+IoDinY782QXoTW4dYGgJ:I2
 R1
 R2
-w1576982515
+w1577090188
 8/home/nguyen/Documents/VLSI/lo_sin.v
 F/home/nguyen/Documents/VLSI/lo_sin.v
 L0 1
@@ -349,7 +371,7 @@ R4
 r1
 !s85 0
 31
-R11
+R19
 !s107 /home/nguyen/Documents/VLSI/lo_sin.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/lo_sin.v|
 !i113 1
@@ -377,13 +399,13 @@ R5
 R6
 R7
 vModulate
-R8
+R14
 !i10b 1
-!s100 ]6oY[6>GD?K^=aWM6dSG02
-If;D[l[U>`Q9P;b7YP:O<j1
+!s100 MaPRIK7oBm]:hWV;]iI_E3
+I_gMXF7Cf2A@=:nEC0KI5_2
 R1
 R2
-w1576982804
+w1577092428
 8/home/nguyen/Documents/VLSI/Modulate.v
 F/home/nguyen/Documents/VLSI/Modulate.v
 L0 1
@@ -391,7 +413,7 @@ R4
 r1
 !s85 0
 31
-R9
+R15
 !s107 /home/nguyen/Documents/VLSI/Modulate.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Modulate.v|
 !i113 1
@@ -399,7 +421,7 @@ R6
 R7
 n@modulate
 vQ00
-R14
+R16
 !i10b 1
 !s100 Z^cHg`V:am?5Oo9;=3I]^3
 IDTemo^>d1?W3>Z@IcL3Dd2
@@ -413,7 +435,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/Q00.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Q00.v|
 !i113 1
@@ -421,7 +443,7 @@ R6
 R7
 n@q00
 vQ01
-R14
+R16
 !i10b 1
 !s100 :1JB0f8:bA7^K2]ln5Xg:0
 I4_TdkYZPNb[l_Kf40e4[O1
@@ -435,7 +457,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/Q01.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Q01.v|
 !i113 1
@@ -443,7 +465,7 @@ R6
 R7
 n@q01
 vQ10
-R14
+R16
 !i10b 1
 !s100 ni^A`6dHCOjX?D^<Gn6=Z0
 I9z]5L@GY?]2BA8fhoC0UT0
@@ -457,7 +479,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/Q10.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Q10.v|
 !i113 1
@@ -465,7 +487,7 @@ R6
 R7
 n@q10
 vQ11
-R14
+R16
 !i10b 1
 !s100 V]RMU3RChTV0[7X`6>TWf1
 IjYCQPhU9]D5N8KTZ:4Wn92
@@ -479,7 +501,7 @@ R4
 r1
 !s85 0
 31
-R15
+R17
 !s107 /home/nguyen/Documents/VLSI/Q11.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Q11.v|
 !i113 1
@@ -619,13 +641,13 @@ R6
 R7
 n@symbol11
 vtop
-R8
+!s110 1577088727
 !i10b 1
-!s100 RZg=4QLj4m8_3Y9>Q_H]g0
-IW=ZbL_:a>TOCb^NZaMAkk1
+!s100 ]TNK2QeOj]D;]NKko7R`71
+I];a?R4e8hdP?i>[ciEee?0
 R1
 R2
-w1576982002
+w1577088713
 8/home/nguyen/Documents/VLSI/top.v
 F/home/nguyen/Documents/VLSI/top.v
 L0 1
@@ -633,7 +655,7 @@ R4
 r1
 !s85 0
 31
-R9
+!s108 1577088727.000000
 !s107 /home/nguyen/Documents/VLSI/top.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/top.v|
 !i113 1
