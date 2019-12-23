@@ -12,12 +12,41 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Demodulate
 
+} {} {}} /home/nguyen/Documents/VLSI/GetOriginIAndQ.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GetOriginIAndQ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GetOriginIAndQ
+
+Top level modules:
+	GetOriginIAndQ
+
+} {} {}} /home/nguyen/Documents/VLSI/GetIAndQ.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GetIAndQ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GetIAndQ
+
+Top level modules:
+	GetIAndQ
+
+} {} {}} /home/nguyen/Documents/VLSI/Filter.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Filter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Filter
+
+Top level modules:
+	Filter
+
 } {} {}} /home/nguyen/Documents/VLSI/Symbol00.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Symbol00.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Symbol00
 
 Top level modules:
 	Symbol00
+
+} {} {}} /home/nguyen/Documents/VLSI/lo_cos.v {2 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_cos.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lo_cos
+** Warning: /home/nguyen/Documents/VLSI/lo_cos.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	lo_cos
 
 } {} {}} /home/nguyen/Documents/VLSI/Symbol01.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Symbol01.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -39,6 +68,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	Modulate
+
+} {} {}} /home/nguyen/Documents/VLSI/lo_sin.v {2 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_sin.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lo_sin
+** Warning: /home/nguyen/Documents/VLSI/lo_sin.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	lo_sin
 
 } {} {}} /home/nguyen/Documents/VLSI/Symbol10.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Symbol10.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
