@@ -82,18 +82,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Symbol10
 
-} {} {}} /home/nguyen/Documents/VLSI/GetQPSKOutput.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GetQPSKOutput.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module GetQPSKOutput
-
-Top level modules:
-	GetQPSKOutput
-
 } {} {}} /home/nguyen/Documents/VLSI/Symbol11.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Symbol11.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Symbol11
 
 Top level modules:
 	Symbol11
+
+} {} {}} /home/nguyen/Documents/VLSI/GetQPSKOutput.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GetQPSKOutput.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GetQPSKOutput
+
+Top level modules:
+	GetQPSKOutput
 
 } {} {}}
