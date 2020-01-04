@@ -11,11 +11,13 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
   always @(posedge clk)
   begin
     tempI = tempI + I_filtered;
+  end
+  always @(negedge clk)
+  begin
     tempQ = tempQ + Q_filtered;
   end
   always @(posedge clk1)
   begin
-    begin
       if((tempI) > 0)
       begin
         I_origin = 1;
@@ -25,6 +27,9 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
         I_origin = 0;
       end
       tempI = 0;
+  end
+  always @(negedge clk1)
+  begin
       if((tempQ) > 0)
       begin
         Q_origin = 1;
@@ -34,6 +39,5 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
         Q_origin = 0;
       end
       tempQ = 0;
-    end
   end
 endmodule

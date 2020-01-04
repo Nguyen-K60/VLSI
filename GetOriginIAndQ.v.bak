@@ -2,7 +2,7 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
   input clk, clk1;
   input signed [18:0] I_filtered, Q_filtered;
   output reg I_origin, Q_origin;
-  reg signed [31:0] tempI, tempQ;
+  reg signed [63:0] tempI, tempQ;
   initial 
   begin
     tempI = 0;
@@ -15,7 +15,6 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
   end
   always @(posedge clk1)
   begin
-    begin
       if((tempI) > 0)
       begin
         I_origin = 1;
@@ -25,6 +24,9 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
         I_origin = 0;
       end
       tempI = 0;
+  end
+  always @(negedge clk1)
+  begin
       if((tempQ) > 0)
       begin
         Q_origin = 1;
@@ -34,6 +36,5 @@ module GetOriginIAndQ(clk, clk1, I_filtered, Q_filtered, I_origin, Q_origin);
         Q_origin = 0;
       end
       tempQ = 0;
-    end
   end
 endmodule

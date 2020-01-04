@@ -1,4 +1,4 @@
-module GetQPSKOutput(clk, Ichannel, Qchannel, QPSK_out);
+module Mix(clk, Ichannel, Qchannel, QPSK_out);
   input clk;  
   input Ichannel, Qchannel;  
   output reg signed [9:0] QPSK_out;

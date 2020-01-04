@@ -40,19 +40,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	lo_cos
 
-} {} {}} /home/nguyen/Documents/VLSI/GenerateIAndQ.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GenerateIAndQ.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module GenerateIAndQ
-
-Top level modules:
-	GenerateIAndQ
-
 } {} {}} /home/nguyen/Documents/VLSI/Modulate.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Modulate.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module Modulate
 
 Top level modules:
 	Modulate
+
+} {} {}} /home/nguyen/Documents/VLSI/GenerateInput.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GenerateInput.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GenerateInput
+
+Top level modules:
+	GenerateInput
 
 } {} {}} /home/nguyen/Documents/VLSI/lo_sin.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/lo_sin.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -61,11 +61,25 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	lo_sin
 
-} {} {}} /home/nguyen/Documents/VLSI/GetQPSKOutput.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/GetQPSKOutput.v
+} {} {}} /home/nguyen/Documents/VLSI/Split.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Split.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module GetQPSKOutput
+-- Compiling module Split
 
 Top level modules:
-	GetQPSKOutput
+	Split
+
+} {} {}} /home/nguyen/Documents/VLSI/Combine.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Combine.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Combine
+
+Top level modules:
+	Combine
+
+} {} {}} /home/nguyen/Documents/VLSI/Mix.v {1 {vlog -work work -stats=none /home/nguyen/Documents/VLSI/Mix.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mix
+
+Top level modules:
+	Mix
 
 } {} {}}

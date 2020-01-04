@@ -8,27 +8,49 @@ z2
 !i10f 100
 cModel Technology
 d/home/nguyen/intelFPGA/17.0/modelsim_ase/linuxaloem
-vDemodulate
-Z0 !s110 1578103476
+vCombine
+Z0 !s110 1578108980
 !i10b 1
-!s100 bRjKo52@^gUBe@:2cbR8_2
-I_c_mF@@iQJIc5@T;`L2g92
+!s100 =bYURc99jGN6af=4z^2mj2
+I@6fz0Mz[zBU>JEm40EFOh1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 d/home/nguyen/Documents/VLSI
-w1576981991
-8/home/nguyen/Documents/VLSI/Demodulate.v
-F/home/nguyen/Documents/VLSI/Demodulate.v
+w1578106719
+8/home/nguyen/Documents/VLSI/Combine.v
+F/home/nguyen/Documents/VLSI/Combine.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1578103476.000000
-!s107 /home/nguyen/Documents/VLSI/Demodulate.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Demodulate.v|
+Z4 !s108 1578108980.000000
+!s107 /home/nguyen/Documents/VLSI/Combine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Combine.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
+n@combine
+vDemodulate
+R0
+!i10b 1
+!s100 Sk_WmPS[oM@VaK=nnbFV?0
+I9g3D=H<InP>cJZ14DCR@j0
+R1
+R2
+w1578108448
+8/home/nguyen/Documents/VLSI/Demodulate.v
+F/home/nguyen/Documents/VLSI/Demodulate.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/nguyen/Documents/VLSI/Demodulate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Demodulate.v|
+!i113 1
+R5
+R6
 n@demodulate
 vFilter
 R0
@@ -52,28 +74,28 @@ R4
 R5
 R6
 n@filter
-vGenerateIAndQ
+vGenerateInput
 R0
 !i10b 1
-!s100 1nn21D2mnj]iDRDeT6D3;1
-I1R<UL]oge9AEJ=4b3fLCX2
+!s100 ZFQVUmlX7j?`lSVhf@_n^3
+IS9[Y1PH]l`8mo3AET[Vjd1
 R1
 R2
-w1577873125
-8/home/nguyen/Documents/VLSI/GenerateIAndQ.v
-F/home/nguyen/Documents/VLSI/GenerateIAndQ.v
+w1578106867
+8/home/nguyen/Documents/VLSI/GenerateInput.v
+F/home/nguyen/Documents/VLSI/GenerateInput.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/nguyen/Documents/VLSI/GenerateIAndQ.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GenerateIAndQ.v|
+!s107 /home/nguyen/Documents/VLSI/GenerateInput.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GenerateInput.v|
 !i113 1
 R5
 R6
-n@generate@i@and@q
+n@generate@input
 vGetIAndQ
 R0
 !i10b 1
@@ -99,11 +121,11 @@ n@get@i@and@q
 vGetOriginIAndQ
 R0
 !i10b 1
-!s100 mWPoT:e;5e9bOaE`mo6jd2
-IF>4aY6cAAN[DA^M;`?Pg51
+!s100 S2_`>keKU@@jmdSd5>g803
+I5`P;BU5JOj_VcC<JhYDBV0
 R1
 R2
-w1577872062
+w1578107409
 8/home/nguyen/Documents/VLSI/GetOriginIAndQ.v
 F/home/nguyen/Documents/VLSI/GetOriginIAndQ.v
 L0 1
@@ -118,28 +140,6 @@ R4
 R5
 R6
 n@get@origin@i@and@q
-vGetQPSKOutput
-R0
-!i10b 1
-!s100 ^9K6UO2mUc`z>Ukn3<`V?1
-Ia]:M2bQ]>IaHhmDIM_<641
-R1
-R2
-w1578103306
-8/home/nguyen/Documents/VLSI/GetQPSKOutput.v
-F/home/nguyen/Documents/VLSI/GetQPSKOutput.v
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 /home/nguyen/Documents/VLSI/GetQPSKOutput.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/GetQPSKOutput.v|
-!i113 1
-R5
-R6
-n@get@q@p@s@k@output
 vlo_cos
 R0
 !i10b 1
@@ -182,14 +182,36 @@ R4
 !i113 1
 R5
 R6
+vMix
+R0
+!i10b 1
+!s100 g>AK8XlQZfQebEA4g=<<?3
+I0md_^0k[7?SZE4QmDM9GX2
+R1
+R2
+w1578107767
+8/home/nguyen/Documents/VLSI/Mix.v
+F/home/nguyen/Documents/VLSI/Mix.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/nguyen/Documents/VLSI/Mix.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Mix.v|
+!i113 1
+R5
+R6
+n@mix
 vModulate
 R0
 !i10b 1
-!s100 _1GD6X8g_gUjYHOV^81PW3
-I1^K_nSG]PmRG9<Sz9`NFB3
+!s100 c7T3Dn6Jj_]0;K_1kW6R_2
+I3Dd>Fld478EfUMTI?Ad>D0
 R1
 R2
-w1578102921
+w1578107759
 8/home/nguyen/Documents/VLSI/Modulate.v
 F/home/nguyen/Documents/VLSI/Modulate.v
 L0 1
@@ -204,36 +226,36 @@ R4
 R5
 R6
 n@modulate
-vQPSK
-!s110 1576721472
+vSplit
+R0
 !i10b 1
-!s100 [CTkjAlL@m3b[HV5XYAS^0
-I9THoPJnRoXcikS^2SNWSL3
+!s100 8@mC;LC<KZMTj=V=c5n[:3
+IJ9gRlBRV@n@;?N;zK3VE13
 R1
 R2
-w1576721087
-8/home/nguyen/Documents/VLSI/QPSK.v
-F/home/nguyen/Documents/VLSI/QPSK.v
+w1578105691
+8/home/nguyen/Documents/VLSI/Split.v
+F/home/nguyen/Documents/VLSI/Split.v
 L0 1
 R3
 r1
 !s85 0
 31
-!s108 1576721472.000000
-!s107 /home/nguyen/Documents/VLSI/QPSK.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/QPSK.v|
+R4
+!s107 /home/nguyen/Documents/VLSI/Split.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nguyen/Documents/VLSI/Split.v|
 !i113 1
 R5
 R6
-n@q@p@s@k
+n@split
 vtop
 R0
 !i10b 1
-!s100 ]TNK2QeOj]D;]NKko7R`71
-I];a?R4e8hdP?i>[ciEee?0
+!s100 [4>JXlgPVQ7b8ZYC^HGFh1
+IWgE`zbl@lMCA`G0LRQgLj2
 R1
 R2
-w1577088713
+w1578108654
 8/home/nguyen/Documents/VLSI/top.v
 F/home/nguyen/Documents/VLSI/top.v
 L0 1
