@@ -1,7 +1,6 @@
-module Demodulate(clk, clk1, QPSK_out, I_receive, Q_receive, I_filtered, Q_filtered, I_demodulate, Q_demodulate, bit_stream_demodulate);
+module Demodulate(clk, clk1, QPSK_out, bit_stream_demodulate);
   input clk, clk1;
   input wire signed [9:0] QPSK_out;
-  
   output wire signed [18:0] I_receive, Q_receive;
   output wire signed [18:0] I_filtered, Q_filtered;
   output wire I_demodulate, Q_demodulate; 

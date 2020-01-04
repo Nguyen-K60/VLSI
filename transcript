@@ -1,6 +1,5 @@
 # Loading project vlsi
 # Compile of top.v was successful.
-# Compile of GenerateIAndQ.v was successful.
 # Compile of Modulate.v was successful.
 # Compile of Demodulate.v was successful.
 # Compile of GetIAndQ.v was successful.
@@ -8,63 +7,19 @@
 # Compile of lo_sin.v was successful.
 # Compile of Filter.v was successful.
 # Compile of GetOriginIAndQ.v was successful.
-# Compile of GetQPSKOutput.v was successful.
-# Compile of GenerateInput.v failed with 2 errors.
+# Compile of GenerateInput.v was successful.
 # Compile of Split.v was successful.
 # Compile of Combine.v was successful.
-# 13 compiles, 1 failed with 2 errors.
-# Compile of GenerateInput.v was successful.
+# Compile of Mix.v was successful.
+# 12 compiles, 0 failed with no errors.
 vsim work.top
 # vsim work.top 
-# Start time: 10:01:32 on Jan 04,2020
+# Start time: 11:27:57 on Jan 04,2020
 # Loading work.top
-# Loading work.GenerateInput
 # Loading work.Modulate
-# Loading work.Split
-# Loading work.GetQPSKOutput
-# Loading work.lo_cos
-# Loading work.lo_sin
-# Loading work.Demodulate
-# Loading work.GetIAndQ
-# Loading work.Filter
-# Loading work.GetOriginIAndQ
-# ** Error: (vsim-3037) /home/nguyen/Documents/VLSI/Demodulate.v(12): Missing instance name in instantiation of 'Combine'.
-#    Time: 0 ps  Iteration: 0  Instance: /top/demodulate File: /home/nguyen/Documents/VLSI/Demodulate.v
-# Error loading design
-# End time: 10:01:32 on Jan 04,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# Compile of Demodulate.v was successful.
-vsim work.top
-# vsim work.top 
-# Start time: 10:02:02 on Jan 04,2020
-# Loading work.top
 # Loading work.GenerateInput
-# Loading work.Modulate
 # Loading work.Split
-# Loading work.GetQPSKOutput
-# Loading work.lo_cos
-# Loading work.lo_sin
-# Loading work.Demodulate
-# Loading work.GetIAndQ
-# Loading work.Filter
-# Loading work.GetOriginIAndQ
-# Loading work.Combine
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
-run -all
-quit -sim
-# End time: 10:06:29 on Jan 04,2020, Elapsed time: 0:04:27
-# Errors: 0, Warnings: 0
-# Compile of GetOriginIAndQ.v was successful.
-vsim work.top
-# vsim work.top 
-# Start time: 10:10:56 on Jan 04,2020
-# Loading work.top
-# Loading work.GenerateInput
-# Loading work.Modulate
-# Loading work.Split
-# Loading work.GetQPSKOutput
+# Loading work.Mix
 # Loading work.lo_cos
 # Loading work.lo_sin
 # Loading work.Demodulate
@@ -76,37 +31,14 @@ add wave -position insertpoint sim:/top/*
 force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
 force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
 run -all
+add wave -position insertpoint sim:/top/modulate/split/*
 quit -sim
-# End time: 10:14:40 on Jan 04,2020, Elapsed time: 0:03:44
+# End time: 11:32:20 on Jan 04,2020, Elapsed time: 0:04:23
 # Errors: 0, Warnings: 0
-# Compile of top.v failed with 8 errors.
-# Compile of Modulate.v was successful.
-# Compile of Demodulate.v failed with 4 errors.
-# Compile of GetIAndQ.v was successful.
-# Compile of lo_cos.v was successful.
-# Compile of lo_sin.v was successful.
-# Compile of Filter.v was successful.
-# Compile of GetOriginIAndQ.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of Split.v was successful.
-# Compile of Combine.v was successful.
-# Compile of Mix.v was successful.
-# 12 compiles, 2 failed with 12 errors.
-# Compile of top.v failed with 7 errors.
+# Compile of top.v was successful.
 # Compile of Modulate.v was successful.
 # Compile of Demodulate.v was successful.
-# Compile of GetIAndQ.v was successful.
-# Compile of lo_cos.v was successful.
-# Compile of lo_sin.v was successful.
-# Compile of Filter.v was successful.
-# Compile of GetOriginIAndQ.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of Split.v was successful.
-# Compile of Combine.v was successful.
-# Compile of Mix.v was successful.
-# 12 compiles, 1 failed with 7 errors.
-# Compile of top.v failed with 7 errors.
-# Compile of top.v was successful.
+# 3 compiles, 0 failed with no errors.
 # Compile of top.v was successful.
 # Compile of Modulate.v was successful.
 # Compile of Demodulate.v was successful.
@@ -122,10 +54,10 @@ quit -sim
 # 12 compiles, 0 failed with no errors.
 vsim work.top
 # vsim work.top 
-# Start time: 10:31:16 on Jan 04,2020
+# Start time: 11:36:50 on Jan 04,2020
 # Loading work.top
-# Loading work.GenerateInput
 # Loading work.Modulate
+# Loading work.GenerateInput
 # Loading work.Split
 # Loading work.Mix
 # Loading work.lo_cos
@@ -140,18 +72,5 @@ force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
 force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
 run -all
 quit -sim
-# End time: 10:34:54 on Jan 04,2020, Elapsed time: 0:03:38
+# End time: 11:38:45 on Jan 04,2020, Elapsed time: 0:01:55
 # Errors: 0, Warnings: 0
-# Compile of top.v was successful.
-# Compile of Modulate.v was successful.
-# Compile of Demodulate.v was successful.
-# Compile of GetIAndQ.v was successful.
-# Compile of lo_cos.v was successful.
-# Compile of lo_sin.v was successful.
-# Compile of Filter.v was successful.
-# Compile of GetOriginIAndQ.v was successful.
-# Compile of GenerateInput.v was successful.
-# Compile of Split.v was successful.
-# Compile of Combine.v was successful.
-# Compile of Mix.v was successful.
-# 12 compiles, 0 failed with no errors.
