@@ -1,25 +1,27 @@
-module GetQPSKOutput(clk, sb00, sb01, sb11, sb10, Ichannel, Qchannel, QPSK_out);
+module GetQPSKOutput(clk, Ichannel, Qchannel, QPSK_out);
   input clk;  
-  input Ichannel, Qchannel; 
-  input signed [9:0] sb00, sb01, sb11, sb10; 
+  input Ichannel, Qchannel;  
   output reg signed [9:0] QPSK_out;
+  wire signed [8:0] cos, sin;
+  lo_cos locos(.clk(clk), .lo_cos_out(cos));
+  lo_sin losin(.clk(clk), .lo_sin_out(sin));
   always @(posedge clk)
   begin
     if(Ichannel == 0 && Qchannel == 0)
       begin
-	QPSK_out = sb00;
+	QPSK_out = -cos-sin;
       end
     else if(Ichannel == 0 && Qchannel == 1)
       begin
-	QPSK_out = sb01;
+	QPSK_out = -cos+sin;
       end
     else if(Ichannel == 1 && Qchannel == 1)
       begin
-	QPSK_out = sb11;
+	QPSK_out = cos+sin;
       end
     else
       begin
-	QPSK_out = sb10;
+	QPSK_out = cos-sin;
       end 
   end
 endmodule

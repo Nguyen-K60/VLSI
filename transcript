@@ -1,80 +1,67 @@
 # Loading project vlsi
-# Compile of GetOriginIAndQ.v was successful.
-vsim work.top
-# vsim work.top 
-# Start time: 16:50:27 on Jan 01,2020
-# Loading work.top
-# Loading work.Modulate
-# Loading work.GenerateIAndQ
-# Loading work.Symbol00
-# Loading work.Symbol01
-# Loading work.Symbol11
-# Loading work.Symbol10
-# Loading work.GetQPSKOutput
-# Loading work.Demodulate
-# Loading work.GetIAndQ
-# Loading work.lo_cos
-# Loading work.lo_sin
-# Loading work.Filter
-# Loading work.GetOriginIAndQ
-add wave -r sim:/top/*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run -all
-add wave sim:/top/*
-quit -sim
-# End time: 16:55:00 on Jan 01,2020, Elapsed time: 0:04:33
-# Errors: 0, Warnings: 0
-vsim work.top
-# vsim work.top 
-# Start time: 16:55:01 on Jan 01,2020
-# Loading work.top
-# Loading work.Modulate
-# Loading work.GenerateIAndQ
-# Loading work.Symbol00
-# Loading work.Symbol01
-# Loading work.Symbol11
-# Loading work.Symbol10
-# Loading work.GetQPSKOutput
-# Loading work.Demodulate
-# Loading work.GetIAndQ
-# Loading work.lo_cos
-# Loading work.lo_sin
-# Loading work.Filter
-# Loading work.GetOriginIAndQ
-add wave -r /*
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-run -all
-restart
-force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
-force -freeze sim:/top/clk1 1 0, 0 {50 ps} -r 100
-# Break key hit
-run -all
+# Compile of top.v was successful.
 # Compile of GenerateIAndQ.v was successful.
-quit -sim
-# End time: 17:05:48 on Jan 01,2020, Elapsed time: 0:10:47
-# Errors: 0, Warnings: 0
+# Compile of Modulate.v was successful.
+# Compile of Demodulate.v was successful.
+# Compile of Symbol00.v was successful.
+# Compile of Symbol01.v was successful.
+# Compile of Symbol10.v was successful.
+# Compile of Symbol11.v was successful.
+# Compile of GetIAndQ.v was successful.
+# Compile of lo_cos.v was successful.
+# Compile of lo_sin.v was successful.
+# Compile of Filter.v was successful.
+# Compile of GetOriginIAndQ.v was successful.
+# Compile of GetQPSKOutput.v was successful.
+# 14 compiles, 0 failed with no errors.
 vsim work.top
 # vsim work.top 
-# Start time: 17:06:05 on Jan 01,2020
+# Start time: 08:56:04 on Jan 04,2020
 # Loading work.top
 # Loading work.Modulate
 # Loading work.GenerateIAndQ
-# Loading work.Symbol00
-# Loading work.Symbol01
-# Loading work.Symbol11
-# Loading work.Symbol10
 # Loading work.GetQPSKOutput
-# Loading work.Demodulate
-# Loading work.GetIAndQ
 # Loading work.lo_cos
 # Loading work.lo_sin
+# Loading work.Demodulate
+# Loading work.GetIAndQ
 # Loading work.Filter
 # Loading work.GetOriginIAndQ
 add wave -r /*
 force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
 force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
 run -all
-# End time: 17:10:02 on Jan 01,2020, Elapsed time: 0:03:57
+quit -sim
+# End time: 09:03:06 on Jan 04,2020, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 0
+# Compile of top.v was successful.
+# Compile of GenerateIAndQ.v was successful.
+# Compile of Modulate.v was successful.
+# Compile of Demodulate.v was successful.
+# Compile of GetIAndQ.v was successful.
+# Compile of lo_cos.v was successful.
+# Compile of lo_sin.v was successful.
+# Compile of Filter.v was successful.
+# Compile of GetOriginIAndQ.v was successful.
+# Compile of GetQPSKOutput.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 09:04:51 on Jan 04,2020
+# Loading work.top
+# Loading work.Modulate
+# Loading work.GenerateIAndQ
+# Loading work.GetQPSKOutput
+# Loading work.lo_cos
+# Loading work.lo_sin
+# Loading work.Demodulate
+# Loading work.GetIAndQ
+# Loading work.Filter
+# Loading work.GetOriginIAndQ
+add wave -r /*
+force -freeze sim:/top/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top/clk1 1 0, 0 {500 ps} -r 1000
+run -all
+quit -sim
+# End time: 09:07:58 on Jan 04,2020, Elapsed time: 0:03:07
 # Errors: 0, Warnings: 0
